@@ -1,0 +1,23 @@
+/*
+Usar em e talvez px
+*/
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+
+@font-face {
+    font-family: valentine ;
+    src: url(fonts/Shine\ in\ Valentine.ttf) format(TrueType);
+}
+
+h2{
+    font-family: "Big Shoulders", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+p{
+    font-family: valentine, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5em;
+}

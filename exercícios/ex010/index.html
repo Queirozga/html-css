@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <p>Imagens de tamanhos diferente </p>
+    
+    <picture>
+        <source media="(max-width: 725px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1025px)" srcset="imagens/foto-m.png" type="image/png">
+
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+
+
+    <audio preload="none" controls>
+
+        <source src="midia/House of Mango - Surf Ninja 3.mp3" type="audio/mpeg">
+        <source src="midia/House of Mango - Surf Ninja 3.ogg" type="audio/ogg">
+        <source src="midia/House of Mango - Surf Ninja 3.wav" type="audio/wav">
+        <p>Seu navegador não suporta o áudio? <a href="midia/House of Mango - Surf Ninja 3.mp3" download="House of Mango - Surf Ninja 3.mp3" rel="audio/mpeg">Clique aqui</a></p>
+    </audio>
+</body>
+</html>

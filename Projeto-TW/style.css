@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Lexend;
+    src: url(fonts/Lexend-VariableFont_wght.ttf);
+}
+
+:root{
+    --cor1: #FA0101;
+    --cor2: #CF2323;
+    --cor3: #E04A4A;
+    --cor4: #D26969;
+    --cor5: #E19797;
+    --cor6: #E2BBBB;
+}
+
+*{
+    font: 400 1em Lexend ;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font: 800 1em Lexend ;
+}
+
+h2{
+    font: 700 1em Lexend ;
+}
+
+h3{
+    font: 600 1em Lexend ;
+}
+
+p{ 
+    font: 400 1em Lexend ;
+}
+
+header{
+    margin: 0%;
+    background-color: var(--cor1);
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+a{
+    color: var(--cor3);
+    text-decoration: none;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    border-radius: 5px;
+    font-size: 20px;
+} 
+
+nav{
+    padding: 10px;
+}
+
+.header_title{
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5em;
+    padding: 10px;
+    text-shadow: 1px 1px 10px #000000;
+}
+
+.andrej{
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+.andrej_title{
+    text-align: center;
+    color: var(--cor2);
+    font-size: 1.5em;
+    padding: 10px 50px;
+}
+
+.andrej_text{
+    text-align: justify;
+    padding: 50px;
+}
+
+
+.andrej_link:hover{
+    color: var(--cor1);
+    text-decoration: underline;
+
+}
+
+.andrej_img{
+}
+
+.character{
+    background-color: var(--cor3);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 3px 3px 10px  #000000;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+.char_title{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 10px #000000;
+}
+
+.kingdom{
+    text-align: justify;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.king_title{
+    text-align: center;
+    color: var(--cor1);
+
+}
+
+.book_game{
+    background-color: var(--cor4);
+}
+
+.bg_content{
+    background-color: white;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.bg_title{
+    text-align: center;
+}
+
