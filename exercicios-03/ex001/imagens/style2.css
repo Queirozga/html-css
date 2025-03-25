@@ -1,9 +1,30 @@
 @charset "UTF-8";
 
 body{
-    height: 99vh;
-    background-image: url('pattern002.png');
-    background-size: 100px 100px;
-    background-repeat: no-repeat;
-    background-position: right top;
+    height: 100%;
+    background: blue url(wallpaper002.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+section{
+    position: relative;
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+article{
+    border-radius: 15px;
+    background-color: turquoise;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+
 }
