@@ -3,10 +3,31 @@
 table{
     border-collapse: collapse;
     width: 200px;
-    height: 200px;
+    height: 80px;
+    position: relative;
+    
 }
-td{
+
+table > tr > th{
+    position: sticky;
+    top: 0;
+    background-color: rgb(231, 230, 138);
+}
+
+tbody tr:nth-child(2n){
+    background-color: rgb(240, 240, 190); ;
+}
+
+td, th{
     border: 1px solid #000000;
-    vertical-align: top;
+    vertical-align: middle;
     text-align: center;
+}
+
+th{
+    background-color: rgb(231, 230, 138);
+}
+
+caption{
+    background-color: rgb(230, 226, 226);
 }
