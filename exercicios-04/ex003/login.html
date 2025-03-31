@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login landing</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, rgb(69, 69, 218) 40%, rgb(92, 63, 224));
+            text-align: center;
+        }
+        input{
+            border-radius: 5px;
+            border: none;
+            padding: 6px;
+            border: 1px solid rgba(0, 0, 0, 0.205);
+            background-color: aliceblue;
+        }
+        h1{
+            color: orange;
+            font-size: 2.5em;
+        }
+        label{
+            color: rgb(37, 0, 245);
+        }
+        input{
+            background-color:rgba(37, 0, 245, 0.151);
+            width: 200px;
+        }
+        ::placeholder{
+            color: rgba(0, 0, 0, 0.767);
+        }
+        .login{
+            background-color: orange;
+            width: 250px;
+            border-radius: 15px;
+            color: aliceblue;
+        }
+        form{
+            background-color: aliceblue;
+            width: fit-content;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 10px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form method="post">
+            <h1>Login</h1>
+            <div class="email">
+                <p>
+                    <label for="imail">E-mail</label> <br>
+                    <input type="email" name="mail" id="imail" required maxlength="15" placeholder="Type your e-mail" autocomplete="email"> <br>
+                </p>
+            </div>
+            <div class="password">
+                <p>
+                    <label for="ipass">Password</label> <br>
+                    <input type="password" name="pass" id="ipass" required minlength="8" placeholder="Type your password" autocomplete="current-password">
+                </p>
+                <div>
+                    <p>
+                        <input class="login" type="submit" value="Login">
+                    </p>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
