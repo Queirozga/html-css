@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+@media screen and (min-width: 768px){
+    #burguer{
+        display: none;
+    }
+    menu{
+        display: block;
+        text-align: left;
+    }
+    menu li {
+        display: inline-block;
+        text-align: left;
+    }
+}

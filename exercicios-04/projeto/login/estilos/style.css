@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(230, 149, 230);
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    text-align: center;
+    position: relative;
+    width: 300px;
+    margin: auto;
+}
+h1{
+    font-size: 1.5em;
+    padding-bottom: 15px;
+    color: rgb(253, 148, 165);
+    text-shadow: 0px 0px 3px rgba(17, 10, 11, 0.082);
+}
+.mail_box, .pass_box{
+    padding-bottom: 5px;
+}
+.login{
+    background-color: rgb(250, 245, 245);
+    padding: 25px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.233);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+#email, #pass{
+    color: rgb(107, 13, 107);
+}
+#imail, #ipass{
+    width: 240px;
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid rgba(3, 3, 3, 0.26);
+}
+a{
+    color: rgb(253, 148, 165);
+    font-size: 12px;
+}
+a:hover{
+    color: rgb(153, 64, 153);
+}
+#submit_button{
+    padding: 5px;
+    width: 270px;
+    color: rgb(250, 245, 245);
+    background-color: rgb(107, 13, 107);
+    border: none;
+    border-radius: 3px;
+}
+.submit{
+    padding-top: 10px;
+}
