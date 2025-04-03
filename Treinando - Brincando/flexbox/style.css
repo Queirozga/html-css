@@ -1,29 +1,22 @@
 @charset "UTF-8";
 
 .block1{
-    width: 100px;
-    height: 100px;
+    flex: auto;
     background-color: aqua
 }
 .block2{
-    width: 100px;
-    height: 100px;
     background-color: rgb(255, 0, 128)
 }
 .block3{
-    width: 100px;
-    height: 100px;
     background-color: rgb(145, 255, 0)
 }
 
 .container{
     background-color: antiquewhite;
-    width:500px;
-    height: 500px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: start;
     justify-content: center;
-    gap: 78px;
     flex-wrap: wrap;
+    text-align: center;
 }
